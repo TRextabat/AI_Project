@@ -6,11 +6,11 @@ using System.Linq;
 class GeneticAlgorithm
 {
     static Random rand = new Random();
-    static string target = "ObjectDetection";
+    static string target = "Object Detection";
     static int populationSize = 100;
     static int chromosomeLength = target.Length;
     static double mutationRate = 0.01;
-    static string geneSet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    static string geneSet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ";
 
     class Individual
     {
